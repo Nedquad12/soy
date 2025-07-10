@@ -608,14 +608,14 @@ ADMIN_IDS = [6208519947, 5751902978]  # Ganti dengan Telegram user ID admin
 
 async def main():
     """Main function"""
-   # if BOT_TOKEN == "7833221115:AAEvPf5KUY466WaELoJ4p9R1Ag5e8aG8-Lc":
-     #   print("❌ Harap masukkan token bot Telegram Anda!")
-      #  print("1. Buat bot baru di @BotFather")
-      #  print("2. Dapatkan token dan ganti BOT_TOKEN di kode")
-      #  print("3. Dapatkan user ID admin dan masukkan ke ADMIN_IDS")
-      #  return
+    if BOT_TOKEN == "0101":
+        print("❌ Harap masukkan token bot Telegram Anda!")
+        print("1. Buat bot baru di @BotFather")
+        print("2. Dapatkan token dan ganti BOT_TOKEN di kode")
+        print("3. Dapatkan user ID admin dan masukkan ke ADMIN_IDS")
+        return
     
-    if not ADMIN_IDS or ADMIN_IDS == [6208519947, 5751902978]:
+    if not ADMIN_IDS or ADMIN_IDS == [2817129, 0000]:
         print("❌ Harap masukkan user ID admin di ADMIN_IDS!")
         print("Cara mendapatkan user ID:")
         print("1. Chat ke @userinfobot")
