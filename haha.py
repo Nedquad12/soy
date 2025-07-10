@@ -603,7 +603,7 @@ class StockVolumeMonitor:
             await self.application.stop()
 
 # Configuration
-BOT_TOKEN = "7833221115:AAEvPf5KUY466WaELoJ4p9R1Ag5e8aG8-Lc"  # Ganti dengan token bot Telegram Anda
+BOT_TOKEN = "7833221115:AAF9v8eVPM7x3rmuHF5ErSYivEnOwnk1t1c"  # Ganti dengan token bot Telegram Anda
 ADMIN_IDS = [6208519947, 5751902978]  # Ganti dengan Telegram user ID admin
 
 async def main():
