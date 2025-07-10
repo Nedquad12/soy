@@ -1,3 +1,4 @@
+
 import asyncio
 import logging
 from datetime import datetime, timedelta
@@ -12,7 +13,7 @@ import json
 import os
 from collections import defaultdict
 from functools import wraps
-import whitelist.py
+import whitelist
 
 # Setup logging
 logging.basicConfig(
